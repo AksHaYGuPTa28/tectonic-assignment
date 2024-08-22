@@ -8,6 +8,7 @@
     position: relative;
     width: 100%;
     min-height: 500px;
+    background-color: white;
   }
   
   img, video {
@@ -51,3 +52,8 @@
     right: 0;
   }
   
+  @media (max-width: 768px) {
+  .slide{
+    min-height: 400px;
+  }
+  }
