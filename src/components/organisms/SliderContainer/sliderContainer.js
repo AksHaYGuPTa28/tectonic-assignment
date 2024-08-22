@@ -14,7 +14,7 @@ const SliderContainer = ({ slidersData }) => {
           <div className='shop'>
           <Button variant="block">
             <LuShoppingCart />
-            Shop All
+            Shop
           </Button>
           {sliderData.thumbnails && (
             <SmallContainer thumbnails={sliderData.thumbnails} />

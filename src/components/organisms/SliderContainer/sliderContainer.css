@@ -9,6 +9,7 @@
     align-items: center;
     padding: 1rem 0;
     background-color: white;
+    overflow: hidden;
 }
 .slider-wrapper{
     border: 2px dotted darkgray;
