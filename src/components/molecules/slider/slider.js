@@ -12,7 +12,7 @@ const Slider = ({ slides }) => {
     if (slides[currentIndex].type === 'image') {
       const duration = 5000; // 5 seconds
       const updateInterval = 100; // milliseconds
-      const progressUpdate = 100 / (duration / updateInterval); // Calculate progress update
+      const progressUpdate = 100 / (duration / updateInterval); 
 
       timer = setInterval(() => {
         setProgress((prev) => {
