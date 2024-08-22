@@ -1,0 +1,54 @@
+/* src/Slider.css */
+.slider {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+  }
+  
+  img, video {
+    width: 100%;
+    height: auto; 
+    display: block;
+  }
+
+  .progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 5px;
+  }
+  
+  .progress {
+    height: 100%;
+    background: orange;
+    transition: width 0.1s;
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
